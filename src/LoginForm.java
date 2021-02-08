@@ -77,7 +77,6 @@ public class LoginForm extends javax.swing.JFrame {
         getContentPane().add(showpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 440, -1, -1));
 
         login.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login.png"))); // NOI18N
         login.setText("Log in");
         login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,7 +86,6 @@ public class LoginForm extends javax.swing.JFrame {
         getContentPane().add(login, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 490, -1, -1));
 
         closeLogin.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        closeLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/close Jframe.png"))); // NOI18N
         closeLogin.setText("Close");
         closeLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,10 +94,10 @@ public class LoginForm extends javax.swing.JFrame {
         });
         getContentPane().add(closeLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 490, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login ani.gif"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/login ani.gif"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 220, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/all page background image.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/all page background image.png"))); // NOI18N
         jLabel4.setText("jLabel4");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -150, 1370, 1100));
 

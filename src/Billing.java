@@ -1,9 +1,7 @@
 
 import Project.ConnectionProvider;
-import java.awt.Color;
-import java.awt.Graphics;
+
 import java.awt.print.PrinterException;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,7 +11,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.logging.Level;
@@ -100,10 +97,10 @@ public class Billing extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/billing frame.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/billing frame.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Billing ani.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Billing ani.gif"))); // NOI18N
         jLabel2.setMaximumSize(new java.awt.Dimension(200, 100));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, -1, 100));
 
@@ -226,7 +223,7 @@ public class Billing extends javax.swing.JFrame {
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(867, 244, -1, -1));
 
         Add.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/add.png"))); // NOI18N
+        Add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/add.png"))); // NOI18N
         Add.setText("ADD");
         Add.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -282,7 +279,7 @@ public class Billing extends javax.swing.JFrame {
         getContentPane().add(ReturnAmount, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 510, 169, -1));
 
         Save.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save.png"))); // NOI18N
+        Save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/save.png"))); // NOI18N
         Save.setText("SAVE");
         Save.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -292,7 +289,7 @@ public class Billing extends javax.swing.JFrame {
         getContentPane().add(Save, new org.netbeans.lib.awtextra.AbsoluteConstraints(972, 370, 89, -1));
 
         Print.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Print.setIcon(new javax.swing.ImageIcon(getClass().getResource("/print.png"))); // NOI18N
+        Print.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/print.png"))); // NOI18N
         Print.setText("PRINT");
         Print.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -302,7 +299,7 @@ public class Billing extends javax.swing.JFrame {
         getContentPane().add(Print, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 460, 89, -1));
 
         Cancel.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/close Jframe.png"))); // NOI18N
+        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/close Jframe.png"))); // NOI18N
         Cancel.setText("CANCEL");
         Cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -324,7 +321,7 @@ public class Billing extends javax.swing.JFrame {
         getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 470, -1, -1));
 
         Reset.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Reset.png"))); // NOI18N
+        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Reset.png"))); // NOI18N
         Reset.setText("RESET");
         Reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -559,7 +556,11 @@ public class Billing extends javax.swing.JFrame {
 
     private void PrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrintActionPerformed
        
+        
+        
         try {
+            Table.print();
+            /*
            int x=Table.getRowCount();
            int y=Table.getColumnCount();
            showtxt.append("Name                 Description                 Rate                 Quantity                 Total\n");
@@ -576,7 +577,7 @@ public class Billing extends javax.swing.JFrame {
               
            }
            
-          showtxt.print();
+          showtxt.print();*/
           
            
        } catch (PrinterException ex) {

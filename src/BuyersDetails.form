@@ -35,7 +35,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/buyer Details.png"/>
+          <Image iconType="3" name="/Resources/buyer Details.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -47,7 +47,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Buyers Details ani.gif"/>
+          <Image iconType="3" name="/Resources/Buyers Details ani.gif"/>
         </Property>
       </Properties>
       <Constraints>
@@ -66,7 +66,7 @@
     <Component class="javax.swing.JButton" name="Print">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/print.png"/>
+          <Image iconType="3" name="/Resources/print.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Print"/>
       </Properties>
@@ -82,7 +82,7 @@
     <Component class="javax.swing.JButton" name="Cancel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/close Jframe.png"/>
+          <Image iconType="3" name="/Resources/close Jframe.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cancel"/>
       </Properties>
@@ -174,7 +174,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/v.png"/>
+          <Image iconType="3" name="/Resources/v.png"/>
         </Property>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>

@@ -19,6 +19,7 @@ public class Home extends javax.swing.JFrame {
         Billing.setVisible(false);
         Logout.setVisible(false);
         CloseApp.setVisible(false);
+        DPI.setVisible(false);
         jLabel1.setVisible(false);
         jLabel2.setVisible(false);
         jLabel3.setVisible(false);
@@ -64,13 +65,14 @@ public class Home extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         buyersDetails = new javax.swing.JButton();
         BuyersDetails = new javax.swing.JLabel();
+        DPI = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1366, 768));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Cshow.setIcon(new javax.swing.ImageIcon(getClass().getResource("/control hide and show.png"))); // NOI18N
+        Cshow.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/control hide and show.png"))); // NOI18N
         Cshow.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 CshowMouseClicked(evt);
@@ -78,7 +80,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(Cshow, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
 
-        addBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/new buyer.png"))); // NOI18N
+        addBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/new buyer.png"))); // NOI18N
         addBuyers.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 addBuyersComponentShown(evt);
@@ -91,7 +93,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(addBuyers, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
 
-        UpdateBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Update buyer.png"))); // NOI18N
+        UpdateBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Update buyer.png"))); // NOI18N
         UpdateBuyers.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 UpdateBuyersComponentShown(evt);
@@ -104,7 +106,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(UpdateBuyers, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, -1, -1));
 
-        DeleteBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete buyer.png"))); // NOI18N
+        DeleteBuyers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/delete buyer.png"))); // NOI18N
         DeleteBuyers.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 DeleteBuyersComponentShown(evt);
@@ -117,7 +119,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(DeleteBuyers, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 30, -1, -1));
 
-        AddProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/new product.png"))); // NOI18N
+        AddProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/new product.png"))); // NOI18N
         AddProducts.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 AddProductsComponentShown(evt);
@@ -130,7 +132,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(AddProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 30, -1, -1));
 
-        UpdateProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/update product.png"))); // NOI18N
+        UpdateProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/update product.png"))); // NOI18N
         UpdateProducts.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 UpdateProductsComponentShown(evt);
@@ -143,7 +145,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(UpdateProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 30, -1, -1));
 
-        Deleteproduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete product.png"))); // NOI18N
+        Deleteproduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/delete product.png"))); // NOI18N
         Deleteproduct.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 DeleteproductComponentShown(evt);
@@ -156,7 +158,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(Deleteproduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 30, -1, -1));
 
-        ProductsDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/details product.png"))); // NOI18N
+        ProductsDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/details product.png"))); // NOI18N
         ProductsDetails.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 ProductsDetailsComponentShown(evt);
@@ -169,7 +171,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(ProductsDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 30, -1, -1));
 
-        Billing.setIcon(new javax.swing.ImageIcon(getClass().getResource("/billing.png"))); // NOI18N
+        Billing.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/billing.png"))); // NOI18N
         Billing.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 BillingComponentShown(evt);
@@ -182,7 +184,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(Billing, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 30, -1, -1));
 
-        Logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logout.png"))); // NOI18N
+        Logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/logout.png"))); // NOI18N
         Logout.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 LogoutComponentShown(evt);
@@ -195,7 +197,7 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(Logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 30, -1, -1));
 
-        CloseApp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Close.png"))); // NOI18N
+        CloseApp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Close.png"))); // NOI18N
         CloseApp.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 CloseAppComponentShown(evt);
@@ -246,9 +248,9 @@ public class Home extends javax.swing.JFrame {
 
         jLabel10.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
         jLabel10.setText("Close ");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 120, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 120, -1, -1));
 
-        buyersDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buyer Details.png"))); // NOI18N
+        buyersDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/buyer Details.png"))); // NOI18N
         buyersDetails.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 buyersDetailsComponentShown(evt);
@@ -270,7 +272,21 @@ public class Home extends javax.swing.JFrame {
         });
         getContentPane().add(BuyersDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, -1, -1));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/home.PNG"))); // NOI18N
+        DPI.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
+        DPI.setText("DPI");
+        DPI.addComponentListener(new java.awt.event.ComponentAdapter() {
+            public void componentShown(java.awt.event.ComponentEvent evt) {
+                DPIComponentShown(evt);
+            }
+        });
+        DPI.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DPIActionPerformed(evt);
+            }
+        });
+        getContentPane().add(DPI, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 100, 60));
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/home.PNG"))); // NOI18N
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
@@ -299,6 +315,7 @@ public class Home extends javax.swing.JFrame {
                 Thread.sleep(250);
                 addBuyers.setVisible(true);
                 jLabel1.setVisible(true);
+                DPI.setVisible(true);
             } catch (InterruptedException e) {
                
             }
@@ -327,6 +344,7 @@ public class Home extends javax.swing.JFrame {
         jLabel8.setVisible(false);
         jLabel9.setVisible(false);
         jLabel10.setVisible(false);
+        DPI.setVisible(false);
         z=0;
         
         
@@ -508,6 +526,23 @@ public class Home extends javax.swing.JFrame {
         new Billing().setVisible(true);
     }//GEN-LAST:event_BillingActionPerformed
 
+    private void DPIComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_DPIComponentShown
+        // TODO add your handling code here:
+        try {
+                Thread.sleep(250);
+                UpdateBuyers.setVisible(true);
+                jLabel2.setVisible(true);
+               
+            } catch (InterruptedException e) {
+                
+            }
+    }//GEN-LAST:event_DPIComponentShown
+
+    private void DPIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DPIActionPerformed
+        // TODO add your handling code here:
+        new ShowDeleted().setVisible(true);
+    }//GEN-LAST:event_DPIActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -549,6 +584,7 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JLabel BuyersDetails;
     private javax.swing.JButton CloseApp;
     private javax.swing.JButton Cshow;
+    private javax.swing.JButton DPI;
     private javax.swing.JButton DeleteBuyers;
     private javax.swing.JButton Deleteproduct;
     private javax.swing.JButton Logout;

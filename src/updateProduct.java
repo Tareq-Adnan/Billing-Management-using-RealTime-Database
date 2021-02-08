@@ -71,10 +71,10 @@ public class updateProduct extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/update product ani.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/update product ani.gif"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 20, 330, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/update product.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/update product.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 20, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 560, -1));
 
@@ -138,7 +138,7 @@ public class updateProduct extends javax.swing.JFrame {
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 560, 10));
 
         update.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        update.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save.png"))); // NOI18N
+        update.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/save.png"))); // NOI18N
         update.setText("Update");
         update.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,7 +148,7 @@ public class updateProduct extends javax.swing.JFrame {
         getContentPane().add(update, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, -1, -1));
 
         Reset.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Reset.png"))); // NOI18N
+        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Reset.png"))); // NOI18N
         Reset.setText("Reset");
         Reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +158,7 @@ public class updateProduct extends javax.swing.JFrame {
         getContentPane().add(Reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, -1, -1));
 
         Cancel.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/close Jframe.png"))); // NOI18N
+        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/close Jframe.png"))); // NOI18N
         Cancel.setText("Cancel");
         Cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -196,6 +196,7 @@ public class updateProduct extends javax.swing.JFrame {
         getContentPane().add(ProductName, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 206, -1));
 
         searchbtn.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
+        searchbtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/search.png"))); // NOI18N
         searchbtn.setText("Search");
         searchbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,7 +205,7 @@ public class updateProduct extends javax.swing.JFrame {
         });
         getContentPane().add(searchbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 90, -1, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pbg.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/pbg.png"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();

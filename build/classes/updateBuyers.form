@@ -60,7 +60,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/update buyer ani.gif"/>
+          <Image iconType="3" name="/Resources/update buyer ani.gif"/>
         </Property>
       </Properties>
       <Constraints>
@@ -72,7 +72,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Update buyer.png"/>
+          <Image iconType="3" name="/Resources/Update buyer.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -240,7 +240,7 @@
           <Font name="Agency FB" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/save.png"/>
+          <Image iconType="3" name="/Resources/save.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Update"/>
       </Properties>
@@ -259,7 +259,7 @@
           <Font name="Agency FB" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Reset.png"/>
+          <Image iconType="3" name="/Resources/Reset.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Reset"/>
       </Properties>
@@ -278,7 +278,7 @@
           <Font name="Agency FB" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/close Jframe.png"/>
+          <Image iconType="3" name="/Resources/close Jframe.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cancel"/>
       </Properties>
@@ -297,7 +297,7 @@
           <Font name="Agency FB" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/search.png"/>
+          <Image iconType="3" name="/Resources/search.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Search"/>
       </Properties>
@@ -329,7 +329,7 @@
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/v.png"/>
+          <Image iconType="3" name="/Resources/v.png"/>
         </Property>
       </Properties>
       <Constraints>

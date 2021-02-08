@@ -63,10 +63,10 @@ public class addBuyers extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/New buyer ani.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/New buyer ani.gif"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 20, 237, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/new buyer.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/new buyer.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 10, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 87, 530, 10));
 
@@ -158,7 +158,7 @@ public class addBuyers extends javax.swing.JFrame {
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 580, 10));
 
         Save.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save.png"))); // NOI18N
+        Save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/save.png"))); // NOI18N
         Save.setText("Save");
         Save.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,7 +168,7 @@ public class addBuyers extends javax.swing.JFrame {
         getContentPane().add(Save, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, -1, -1));
 
         Reset.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Reset.png"))); // NOI18N
+        Reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Reset.png"))); // NOI18N
         Reset.setText("Reset");
         Reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +178,7 @@ public class addBuyers extends javax.swing.JFrame {
         getContentPane().add(Reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, -1, -1));
 
         Cancel.setFont(new java.awt.Font("Agency FB", 1, 14)); // NOI18N
-        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/close Jframe.png"))); // NOI18N
+        Cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/close Jframe.png"))); // NOI18N
         Cancel.setText("Cancel");
         Cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,7 +187,7 @@ public class addBuyers extends javax.swing.JFrame {
         });
         getContentPane().add(Cancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 390, -1, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/v.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/v.png"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
@@ -289,7 +289,7 @@ public class addBuyers extends javax.swing.JFrame {
             Connection con=ConnectionProvider.getCon();
             Statement st=con.createStatement();
             st.executeUpdate("INSERT INTO addbuyers Values('"+name+"','"+contactNo+"','"+email+"','"+address+"','"+gender+"')");
-            JOptionPane.showMessageDialog(null, "Successfully Updated!");
+            JOptionPane.showMessageDialog(null, "Successfully Added!");
             setVisible(false);
             new addBuyers().setVisible(true);
             
